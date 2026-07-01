@@ -1,0 +1,9 @@
+import NodeCache from "node-cache";
+
+// Cache expires after 5 minutes (300 seconds)
+const cache = new NodeCache({
+  stdTTL: 300,
+  checkperiod: 320,
+});
+
+export default cache;
