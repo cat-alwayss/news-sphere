@@ -1,76 +1,56 @@
 # 📰 NewsSphere
 
-A modern full-stack news application built with **React**, **Express.js**, and the **GNews API**. NewsSphere provides real-time news, category filtering, search functionality, weather information, dark mode, and a responsive user interface.
+A modern full-stack News Application built using React, Vite, Express.js, and GNews API.
 
----
+## 🌐 Live Demo
 
-## 🚀 Features
+Frontend:
+https://news-sphere-eight.vercel.app
 
-- 📰 Latest Headlines
+Backend:
+https://news-sphere-api.onrender.com
+
+## ✨ Features
+
+- 📰 Latest News
 - 🔍 Search News
-- 📂 Browse by Category
-- 🌤 Live Weather Information
-- 🌙 Dark / Light Mode
-- ❤️ Bookmark Articles (Local Storage)
+- 📂 News Categories
+- ❤️ Reading List (Bookmarks)
+- 🌙 Dark Mode
+- 🌤️ Live Weather
 - 📱 Fully Responsive Design
-- ⚡ Fast Express Backend
-- 🔄 REST API Integration
-- 🖼 Image Fallback for Broken Images
-- ⏳ Loading & Error Handling
 
----
-
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 
 - React
-- React Router
+- Vite
 - Axios
-- React Icons
-- CSS3
+- CSS
 
 ### Backend
 
 - Node.js
 - Express.js
-- Axios
-- dotenv
-- CORS
 
 ### APIs
 
 - GNews API
-- Weather API
+- OpenWeather API
 
----
-
-## 📂 Folder Structure
-
-client/
-├── src/
-│ ├── components/
-│ ├── services/
-│ ├── styles/
-│ ├── App.jsx
-│ └── main.jsx
-
-server/
-├── src/
-│ ├── controllers/
-│ ├── routes/
-│ ├── services/
-│ ├── app.js
-│ └── server.js
-
----
-
-## ⚙ Installation
+## 🚀 Installation
 
 Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/cat-alwayss/news-sphere.git
+```
+
+Go into the project
+
+```bash
+cd news-sphere
 ```
 
 Install frontend
@@ -78,68 +58,28 @@ Install frontend
 ```bash
 cd client
 npm install
-npm run dev
 ```
 
 Install backend
 
 ```bash
-cd server
+cd ../server
 npm install
+```
+
+Start backend
+
+```bash
 npm run dev
 ```
 
-Create a `.env` file inside the server folder
+Start frontend
 
-```env
-PORT=5000
-GNEWS_API_KEY=YOUR_API_KEY
-WEATHER_API_KEY=YOUR_API_KEY
-CLIENT_URL=http://localhost:5173
+```bash
+cd ../client
+npm run dev
 ```
-
----
-
-## 📸 Screenshots
-
-Add screenshots here after deployment.
-
-- Home Page
-- Dark Mode
-- Search Results
-- Weather Card
-- Mobile View
-
----
-
-## 🎯 Learning Outcomes
-
-This project helped me learn:
-
-- Building reusable React components
-- State management using Hooks
-- REST API integration
-- Backend development using Express.js
-- Error handling
-- Responsive UI design
-- Local Storage
-- API security using environment variables
-
----
-
-## 🔮 Future Improvements
-
-- User Authentication
-- Personalized News Feed
-- Pagination
-- Infinite Scrolling
-- Push Notifications
-- Article Sharing
-
----
 
 ## 👨‍💻 Author
 
-Krishna Patel
-
-Built with ❤️ using React & Express.
+Made by **Krishna Patel**
